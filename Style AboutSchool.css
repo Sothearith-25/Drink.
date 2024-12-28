@@ -1,0 +1,118 @@
+body{
+    background-color: #2d2d2d;
+}
+.title{
+    height: 100px;
+    background: linear-gradient(to right, #00AA6E, #0099ff);
+    font-size: 40px;
+    font-family: khmer os muol !important;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+.content{
+    margin-top: 50px;
+    & .row1, .row2, .row3, .row4{
+        width: 90%;
+        height: 60%;
+        font-family: khmer os;
+        display: flex;
+        gap: 30px;
+        margin: auto;
+        margin-bottom: 30px;
+        color: white;
+        & p{
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        & .col1{
+            width: 50%;
+            background-color: #FFC312;
+            text-align: center;
+            padding: 40px;
+            border-radius: 10px;
+            align-content: center;  
+        }
+        & .col2{
+            width: 50%;
+            background-color: #F79F1F;
+            text-align: center;
+            padding: 40px;
+            border-radius: 10px;
+            align-content: center;
+        }
+    }
+    & .row2 {
+        & .col1{
+            background-color: #C4E538;
+        }
+        & .col2{
+            background-color: #A3CB38;
+        }       
+    }
+    & .row3 {
+        & .col1{
+            background-color: #12CBC4;
+        }
+        & .col2{
+            background-color: #1289A7;
+        }       
+    }
+    & .row4{
+        width: 70%;
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: #009432;
+        align-content: center;
+        text-align: center;
+        padding: 20px;
+        color: white;
+    }
+
+}
+footer{
+    font-family: khmer os;
+    color: white;
+    background-color: #2d2d2d;
+    margin-top: 25px;
+    & .bottomside{
+        border-top: 1px solid #444;
+        display: flex;
+        gap: 500px;
+        & .footer-links{
+            width: 50%;
+            padding-left: 30px;
+            & ul, a{
+                list-style-type: none;
+                text-decoration: none;
+                color: white;
+            }
+            & h3{
+                padding-left: 40px;
+            }
+
+        }
+        & .footer-contact{
+            width: 50%;
+            & .social-links {
+                display: flex;
+                gap: 10px;
+                margin-top: 10px;
+                & a img {
+                    width: 30px;
+                    height: 30px;
+                  }
+            }
+        }
+    }
+    & .footer-bottom {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 0.8rem;
+        border-top: 1px solid #444;
+        padding-top: 10px;
+        background-color: #2c2c54;
+      }
+ 
+
+}

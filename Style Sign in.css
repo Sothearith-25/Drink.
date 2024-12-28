@@ -1,0 +1,22 @@
+form{
+    background-color: white;
+    border-radius: 5px;
+    width: 60%;
+    height: auto;
+    min-height: 470px;
+    justify-items: center;
+    .head{
+        color: black;
+        padding-top: 45px;
+        text-align: center;
+        & label1{
+            color: #04AA6D;
+            font-size: 25px;
+            font-weight: bolder;
+        }
+        & a{
+            text-decoration: none;
+            color: #04AA6D;
+        }
+    }
+}
